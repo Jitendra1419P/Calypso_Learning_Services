@@ -1,0 +1,813 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Calypso Learning Services</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="" />
+
+<!-- Facebook and Twitter integration -->
+<meta property="og:title" content=""/>
+<meta property="og:image" content=""/>
+<meta property="og:url" content=""/>
+<meta property="og:site_name" content=""/>
+<meta property="og:description" content=""/>
+<meta name="twitter:title" content="" />
+<meta name="twitter:image" content="" />
+<meta name="twitter:url" content="" />
+<meta name="twitter:card" content="" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Pragma" content="no-cache" />
+
+<!-- Animate.css -->
+<link rel="stylesheet" href="css/animate.css">
+<!-- Icomoon Icon Fonts-->
+<link rel="stylesheet" href="css/icomoon.css">
+<!-- Bootstrap  -->
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<!-- Magnific Popup -->
+<link rel="stylesheet" href="css/magnific-popup.css">
+
+<!-- Flexslider  -->
+<link rel="stylesheet" href="css/flexslider.css">
+
+<!-- Owl Carousel -->
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+<!-- Flaticons  -->
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicons/calypso-favicon-32x32.png">
+<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"  crossorigin="anonymous">
+
+<!-- Theme style  -->
+<link rel="stylesheet" href="css/style.css?v=Nov112020">
+<link rel="stylesheet" href="css/slick.css">
+<link rel="stylesheet" href="css/slick-theme.css">
+
+<!-- Global Site Tag (gtag.js) - Google Analytics --> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-6572568-2"></script> 
+<script src="js/gallery.js"></script> 
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-6572568-2');
+</script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+
+<!-- Modernizr JS --> 
+<script src="js/modernizr-2.6.2.min.js"></script> 
+<!-- FOR IE9 below --> 
+<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]--> 
+<script>
+		   
+	   $(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 300) {
+	    $(".colorlib-nav").css("background" , "rgba(0, 45, 86,.9)");
+		 $(".upper-menu").css("display" , "none");
+	  }
+
+	  else{
+		  $(".colorlib-nav").css("background" , "transparent");  
+      $(".upper-menu").css("display" , "block");  
+	  }
+  })
+})	
+  </script> 
+  <style >
+   .slider {
+         width: 100%;
+         margin: 5px auto;
+     }
+ 
+     .slick-slide {
+       margin: 0px 7px;
+     }
+ 
+     .slick-slide img {
+       width: 100%;
+     }
+ 
+     .slick-prev:before,
+     .slick-next:before {
+       color: black;
+     }
+ 
+ 
+     .slick-slide {
+       transition: all ease-in-out .3s;
+       opacity: .2;
+     }
+     
+     .slick-active {
+       opacity: 1;
+     }
+ 
+     .slick-current {
+       opacity: 1;
+      
+     }
+ </style>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap" rel="stylesheet">
+<!-- Fonts end here-->
+</head>
+<body>
+	<!--Start nevigesan bar Area -->
+<div class="colorlib-loader"></div>
+<div id="page">
+  <nav class="colorlib-nav" role="navigation">
+    <div class="upper-menu"  >
+      <div class="container">
+        <div class="row" style="margin-top: -11px;">
+          <div class="col-xs-4" style="margin-top: 11px">
+            <p class="btn-apply"><a href="https://km.calypso.com/users/sign_in" target="_blank">Sign In</a> &nbsp; | &nbsp;<a href="index.html#colorlib-contact" >Contact Us</a></p>
+          </div>
+          <div class="col-xs-6 col-md-push-2 text-right">
+            <p>
+            <ul class="colorlib-social-icons">
+              <li class="btn-apply"><a href="https://www2.calypso.com/">Calypso Technology</a>&nbsp; &nbsp;</li>
+              <li><a href="https://twitter.com/CalypsoTech?lang=en"><i class="icon-twitter2"></i></a>&nbsp; &nbsp;</li>
+              <li><a href="https://www.youtube.com/channel/UCgy-RocYrvwXGLYGOSGWjaA"><i class="icon-youtube"></i></a>&nbsp; &nbsp;</li>
+              <li><a href="https://www.linkedin.com/company/calypso-technology/"><i class="icon-linkedin2"></i></a></li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="top-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div id="colorlib-logo"><a href="index.html"><img src="images/logo.png?v=1" alt="Calypso Learning Services" style="width: 99%;"></a></div>
+          </div>
+          <div class="col-md-8 text-right menu-1">
+            <ul>
+              <li class="active has-dropdown"><a href="Service.html">Services</a> </li>
+              <li class="has-dropdown"> <a target="_blank" href=" https://km.calypso.com/">e-Learning</a> </li>
+              <li class="has-dropdown"><a href="upcoming-training.html">Classroom Training</a> </li>
+              <li class="has-dropdown"><a href="certification.html">Certification</a></li>   
+                          
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+		<!--End nevigesan bar Area -->
+	<!--Start slider Area-->
+  <aside id="colorlib-hero">
+    <div class="flexslider">
+      <ul class="slides">
+        <li class="postar_height" style="background-image: url(images/original.png);">
+          <div class="overlay"></div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="container">
+                <div class="col-md-8 col-sm-12 slider-text">
+                  <div class="slider-text-inner text-left height_of_hedar_tex">
+                    <h1>TECHNICAL CERTIFICATION</h1>
+                    <!--				   					<h2><span><a href="index.html">Home</a> | News</span></h2>--> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </aside>
+<!--End slider div Area->
+	<!-- Start Services Option Area-->
+  <section id="CCBA-FO" class="sectio-div-Crt" >
+   <div class="container">
+    <div class="row">
+    <div class="col-md-12" style="margin-top: 50px;">
+      <div class="inf-of-certification-div pb">
+       <!-- <h1>Back Office (BO)</h1> -->
+       <p>The <strong>Technical Certification</strong> is intended to assess and validate understanding of Calypso’s core architecture, components and their interaction. </p>
+       <p>
+        This Certification validates user’s knowledge and experience in working and using various Calypso application features, installation and deployment, security, performance, customizations of components.
+          It validates user’s experience and ability to integrate Calypso with various independent market data providers like Bloomberg, Reuters and MarkIT for trades.
+        </p>
+        <p>          It also tests knowledge of creating manual and automated test cases using the Calypso Automated Testing Tool (CATT).</p>
+        <p style="color: #000;"> <u> The Technical Certification exam is offered across three levels: </u></p>
+      
+          <ul style="margin: 0 0 8px;">
+            <li>Associate</li>
+            <li>Professional</li>
+            <li>Expert</li>
+          </ul>
+          <p>
+            Each Calypso Certification is only valid for the current version.The learners will need to re-certify their credentials once a new version of Calypso is released.
+          </p>
+          <p>
+          To successfully complete the program at any level, the learner needs to earn minimum credits specified for each group <strong>(Foundation and Advanced)</strong> by successfully passing the relevant Certification exams in that group. The learner has the flexibility to choose the exam topics. To know more about the Certification exam and minimum credit requirements for each level, kindly refer below:</p>
+ 
+    </div>
+    <div class="col-md-12">
+     <div class="container">
+       <div class="row mb">
+       
+        <div class="col-md-4">
+          <div class="card_basic">
+          <div class="imag_div">
+            <img src="images/logo/technical_1.svg" alt="">
+          </div>  
+          <div class="botam_info">
+            <div class="total_dredits">
+              <h4>CREDITS REQUIRED : <span>15</span>
+              </h4>
+            </div>
+            <div class="dredits_pat">
+              <div class="dredits_one">
+                <h3>Foundation : 15</h3>
+              </div>
+              <!-- <div class="dredits_two">
+                <h3>Advanced : --</h3>
+              </div> -->
+            </div>
+            <p>* Experience required: 6 months or above</p>
+          </div> 
+                   
+          </div>             
+      </div>
+<div class="col-md-4">
+<div class="card_stander">
+ <div class="imag_div">
+   <img src="images/logo/technical_2.svg" alt="">
+                </div>   
+                <div class="botam_info">
+                  <div class="total_dredits">
+                    <h4>CREDITS REQUIRED : <span>25</span>
+                    </h4>
+                  </div>
+                  <div class="dredits_pat">
+                    <div class="dredits_one">
+                      <h3>Foundation : 20</h3>
+                    </div>
+                    <div class="dredits_two">
+                      <h3>Advanced : 5</h3>
+                    </div>
+                  </div>
+                  <p>* Experience required: 1 year or above</p>
+                </div> 
+
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card_premium">
+ <div class="imag_div">
+   <img src="images/logo/technical_3.svg" alt="">
+                </div>   
+                <div class="botam_info">
+                  <div class="total_dredits">
+                    <h4>CREDITS REQUIRED : <span>35</span>
+                    </h4>
+                  </div>
+                  <div class="dredits_pat">
+                    <div class="dredits_one">
+                      <h3>Foundation : 25</h3>
+                    </div>
+                    <div class="dredits_two">
+                      <h3>Advanced : 10</h3>
+                    </div>
+                  </div>
+                  <p>* Experience required: 3 years or above </p>
+                </div> 
+</div>
+
+</div>
+
+       </div>
+       <!-- <p style="font-size: 12px; text-align: center;  color: #000; padding: 5px; border: 1px solid; #000"><strong>In order to successfully complete the program at any level, the learner needs to earn minimum credits specified for each group (Foundation and Advanced) by successfully passing the relevant Certification exam.</strong></p> -->
+     </div>
+    </div>  
+   
+    </div>
+   </div> 
+  </section>
+  
+  <section>
+    <div class="types-certification">     
+      <div class="container">
+          <div class="row">
+     <div class="col-md-12">
+<div>
+     <h3>
+      Foundation
+     </h3>
+</div>
+<div class="col-md-12">
+
+  <section class="regular slider">
+    <div>
+      <div class="card_cours">
+        <!-- <div class="badge"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i></div> -->
+        <div class="product_tumb">
+          <img src="images/Technical/Architecture.png" alt="">
+        </div>
+        <div class="product_details">
+          <!-- <span class="product_catagry">
+           GROUP 1
+          </span> -->
+          <h4>Architecture</h4>
+          <p>Credits : 4</p>
+          <div class="product_bottom_details">
+            <div class="product_price">
+             <a target="_blank" href="https://certify.calypso.com/courses/301-calypso-architecture">Explore More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div>
+     <div class="card_cours">
+       <!-- <div class="badge"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i></div> -->
+       <div class="product_tumb">
+         <img src="images/Technical/Calypso Deployment.png" alt="">
+       </div>
+       <div class="product_details">
+         <!-- <span class="product_catagry">
+           GROUP 1
+         </span> -->
+         <h4>Deployment</h4>
+         <p>Credits : 2</p>
+         <div class="product_bottom_details">
+           <div class="product_price">
+            <a target="_blank" href="https://certify.calypso.com/courses/302-calypso-deployment-certification">Explore More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   
+   <div>
+     <div class="card_cours">
+       <!-- <div class="badge"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i></div> -->
+       <div class="product_tumb">
+         <img src="images/Technical/Configuration Management Tools.png" alt="">
+       </div>
+       <div class="product_details">
+         <!-- <span class="product_catagry">
+           GROUP 1
+         </span> -->
+         <h4>Configuration Management</h4>
+         <p>Credits : 3</p>
+         <div class="product_bottom_details">
+           <div class="product_price">
+            <a target="_blank" href="https://certify.calypso.com/courses/303-configuration-management-tools">Explore More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+  
+   <div>
+     <div class="card_cours">
+       <!-- <div class="badge"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i></div> -->
+       <div class="product_tumb">
+         <img src="images/Technical/Calypso Back Office 101.png" alt="">
+       </div>
+       <div class="product_details">
+         <!-- <span class="product_catagry">
+           GROUP 1
+         </span> -->
+         <h4>Back Office 101</h4>
+         <p>Credits : 2</p>
+         <div class="product_bottom_details">
+           <div class="product_price">
+            <a target="_blank" href="https://certify.calypso.com/courses/304-calypso-back-office-101">Explore More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   
+   <div >
+     <div class="card_cours">
+       <!-- <div class="badge"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i></div> -->
+       <div class="product_tumb">
+         <img src="images/Technical/Calypso Security.png" alt="">
+       </div>
+       <div class="product_details">
+         <!-- <span class="product_catagry">
+           GROUP 1
+         </span> -->
+         <h4>Security</h4>
+         <p>Credits : 2</p>
+         <div class="product_bottom_details">
+           <div class="product_price">
+            <a target="_blank" href="https://certify.calypso.com/courses/305-CalypsoSecurity">Explore More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+  
+   <div >
+     <div class="card_cours">
+       <!-- <div class="badge"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i></div> -->
+       <div class="product_tumb">
+         <img src="images/Technical/Calypso Customization.png" alt="">
+       </div>
+       <div class="product_details">
+         <!-- <span class="product_catagry">
+           GROUP 1
+         </span> -->
+         <h4>Customization</h4>
+         <p>Credits : 4</p>
+         <div class="product_bottom_details">
+           <div class="product_price">
+            <a target="_blank" href="https://certify.calypso.com/courses/310-calypso-customization">Explore More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div >
+     <div class="card_cours">
+       <!-- <div class="badge"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i></div> -->
+       <div class="product_tumb">
+         <img src="images/Technical/Performance & Monitoring.png" alt="">
+       </div>
+       <div class="product_details">
+         <!-- <span class="product_catagry">
+           GROUP 1
+         </span> -->
+         <h4>Performance & Monitoring</h4>
+         <p>Credits : 3</p>
+         <div class="product_bottom_details">
+           <div class="product_price">
+            <a target="_blank" href="https://certify.calypso.com/courses/307-calypso-performance-and-monitoring">Explore More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+  
+   <div >
+     <div class="card_cours">
+       <!-- <div class="badge"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i></div> -->
+       <div class="product_tumb">
+         <img src="images/Technical/Supervision.png" alt="">
+       </div>
+       <div class="product_details">
+         <!-- <span class="product_catagry">
+           GROUP 1
+         </span> -->
+         <h4>Supervision</h4>
+         <p>Credits : 2</p>
+         <div class="product_bottom_details">
+           <div class="product_price">
+            <a target="_blank" href="https://certify.calypso.com/courses/308-calypso-supervision">Explore More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+  
+   <div >
+     <div class="card_cours">
+       <!-- <div class="badge"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i></div> -->
+       <div class="product_tumb">
+         <img src="images/Technical/Integration - need image from illustrator.png" alt="">
+       </div>
+       <div class="product_details">
+         <!-- <span class="product_catagry">
+           GROUP 1
+         </span> -->
+         <h4>Integration 101</h4>
+         <p>Credits : 2</p>
+         <div class="product_bottom_details">
+           <div class="product_price">
+            <a target="_blank" href="">Explore More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   
+  </section>
+
+</div>
+<div>
+<h3>
+  Advanced
+ </h3>
+</div>
+<div class="col-md-12" style="margin-bottom: 50px;">
+  <section class="regular slider">
+  
+    <div>
+      <div class="card_cours">
+        <!-- <div class="badge"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i></div> -->
+        <div class="product_tumb">
+          <img src="images/Technical/Migration - need image from illustrator.jpg" alt="">
+        </div>
+        <div class="product_details">
+          <!-- <span class="product_catagry">
+            GROUP 2
+          </span> -->
+          <h4>Migration</h4>
+          <p>Credits : 2</p>
+          <div class="product_bottom_details">
+            <div class="product_price">
+             <a target="_blank" href="">Explore More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div>
+      <div class="card_cours">
+        <!-- <div class="badge"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i></div> -->
+        <div class="product_tumb">
+          <img src="images/Technical/CATT.png" alt="">
+        </div>
+        <div class="product_details">
+          <!-- <span class="product_catagry">
+            GROUP 2
+          </span> -->
+          <h4>CATT</h4>
+          <p>Credits : 3</p>
+          <div class="product_bottom_details">
+            <div class="product_price">
+             <a target="_blank" href="https://certify.calypso.com/courses/306-calypso-automated-testing-tool-catt">Explore More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div>
+      <div class="card_cours">
+        <!-- <div class="badge"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i></div> -->
+        <div class="product_tumb">
+          <img src="images/Technical/Reuters - need image from Illustrator.png" alt="">
+        </div>
+        <div class="product_details">
+          <!-- <span class="product_catagry">
+            GROUP 2
+          </span> -->
+          <h4>Reuters</h4>
+          <p>Credits : 2</p>
+          <div class="product_bottom_details">
+            <div class="product_price">
+             <a target="_blank" href="">Explore More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div>
+      <div class="card_cours">
+        <!-- <div class="badge"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i></div> -->
+        <div class="product_tumb">
+          <img src="images/Technical/Bloomberg - Need Image from Illustrator.jpg" alt="">
+        </div>
+        <div class="product_details">
+          <!-- <span class="product_catagry">
+            GROUP 2
+          </span> -->
+          <h4>Bloomberg</h4>
+          <p>Credits : 2</p>
+          <div class="product_bottom_details">
+            <div class="product_price">
+             <a target="_blank" href="">Explore More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div>
+      <div class="card_cours">
+        <!-- <div class="badge"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i></div> -->
+        <div class="product_tumb">
+          <img src="images/Technical/IHS Markit - need image from Illustrator.png" alt="">
+        </div>
+        <div class="product_details">
+          <!-- <span class="product_catagry">
+            GROUP 2
+          </span> -->
+          <h4>MarkIT</h4>
+          <p>Credits : 2</p>
+          <div class="product_bottom_details">
+            <div class="product_price">
+             <a target="_blank" href="">Explore More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+</div>
+
+
+
+     </div>
+ 
+          </div>
+        </div>
+      </div>
+  </section>
+
+  
+	<!--	Start Footer Area-->
+  <footer id="colorlib-footer">
+    <div class="container">
+      <div class="row row-pb-md">
+        <div class="col-md-6 colorlib-widget">
+          <h4>About Calypso Learning Services</h4>
+          <p>We understand that our clients must be fully conversant in the Calypso solutions they use to perform their critical job functions and aim to empower users with a comfort level and knowledge they need to maximize the full value of your Calypso investment.</p>
+          <p>
+          <ul class="colorlib-social-icons">
+            <li><a href="https://twitter.com/CalypsoTech?lang=en"><i class="icon-twitter2"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCgy-RocYrvwXGLYGOSGWjaA"><i class="icon-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/calypso-technology/"><i class="icon-linkedin2"></i></a></li>
+          </ul>
+          </p>
+        </div>
+        <div class="col-md-3"></div>
+       
+        
+        <div class="col-md-3 colorlib-widget">
+          <h4>Contact Info</h4>
+          <ul class="colorlib-footer-links">
+            <li>595 Market Street, Suite 700 <br>
+              San Francisco, CA 94105 <br>
+              <b>USA</b> </li>
+            <li><a href="tel://1234567920"><i class="icon-phone"></i> +1 415 530 4000</a></li>
+            <li><a href="mailto:learning@calypso.com"><i class="icon-envelope"></i> learning@calypso.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copy">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p> <small class="block">&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> 
+              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> 
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> 
+              </small><br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+		<!--	End Footer Area -->
+</div>
+<div class="gototop js-top"> <a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a> </div>
+<script>
+	$(function(){
+		$("#cuatomers-testimonial").owlCarousel({
+			items:1,
+			itemsDesktop:[1000,1],
+			itemsDesktopSmall:[979,1],
+			itemsTablet:[768,1],
+			itemsMobile:[650,1],
+			pagination:true,
+			autoplay:true,
+			smartspeed:700,
+			look:true,
+			autoPlayHoverPause:true			
+		});	
+	});
+	</script> 
+<script>
+	        var a = new FgGallery('.fg-gallery',
+			{cols:1,
+            style: {
+                border: '10px solid #fff',
+//                height: '250px',
+                borderRadius: '5px',
+                boxShadow: '0 2px 10px -5px #858585',
+            }
+        })
+//        var a = new FgGallery('.ns', {
+//            cols: 3,
+//            style: {
+//                border: '0 solid #fff',
+//                height: '240px',
+//                borderRadius: '5px',
+//            }
+//        })
+
+</script> 
+
+<!-- jQuery --> 
+<script src="js/jquery.min.js"></script> 
+<!-- jQuery Easing --> 
+<script src="js/jquery.easing.1.3.js"></script> 
+<!-- Bootstrap --> 
+<script src="js/bootstrap.min.js"></script> 
+<!-- Waypoints --> 
+<script src="js/jquery.waypoints.min.js"></script> 
+<!-- Stellar Parallax --> 
+<script src="js/jquery.stellar.min.js"></script> 
+<!-- Flexslider --> 
+<script src="js/jquery.flexslider-min.js"></script> 
+<!-- Owl carousel --> 
+<script src="js/owl.carousel.min.js"></script> 
+<!-- Magnific Popup --> 
+<script src="js/jquery.magnific-popup.min.js"></script> 
+<script src="js/magnific-popup-options.js"></script> 
+<!-- Counters --> 
+<script src="js/jquery.countTo.js"></script> 
+<!-- Main --> 
+<script src="js/main.js"></script>
+<script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+</body>
+<script type="text/javascript">
+
+$(document).ready(function(){
+    
+    $(".tabs-list li a").click(function(e){
+       e.preventDefault();
+    });
+  
+    $(".tabs-list li").click(function(){
+       var tabid = $(this).find("a").attr("href");
+       $(".tabs-list li,.types-certification div.tab").removeClass("active1");   // removing active class from tab
+  
+       $(".tab").hide();   // hiding open tab
+       $(tabid).show();    // show tab
+       $(this).addClass("active1"); //  adding active class to clicked tab
+  
+    });
+  
+  });
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").toggle();
+  });
+});
+
+
+$(document).on('ready', function() {
+     
+     function scroll(className) {$(className).slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        responsive:[
+          {
+            breakpoint: 1024,
+            settings: {
+            slidesToShow: 5,
+            slidesToScroll: 5,
+            infinite: false,
+            dots: true
+            }
+          },
+          {
+            breakpoint:600,
+            settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]        
+      });
+      }
+ 
+      scroll(".regular");
+      scroll(".regular2");
+    });
+ 
+ 
+
+
+
+</script>
+</html>
