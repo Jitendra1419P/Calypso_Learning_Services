@@ -1,29 +1,27 @@
 ﻿# Calypso_Learning_Services
 
+Project: Website for Hardworking Learning Services
+
+Detailed information regarding Industrious Learning Services' training programs, course offerings, and learning environment were to be provided through the development of a complete website. The project required using HTML, CSS, and JavaScript to design and build a responsive, user-friendly website.
 
 
- Project: Industrious Learning Services Website
+Important characteristics:
 
-Description:
-Developed a comprehensive website for Industrious Learning Services, aimed at providing detailed information about their training programs, course offerings, and learning environment. The project involved designing and implementing a user-friendly, responsive website using HTML, CSS, and JavaScript.
+    Homepage: Highlights the company's dedication to providing top-notch instruction in a variety of media while outlining its goals and offerings.
+    Courses: Provides a list of eighteen courses for beginners and intermediate learners, along with thorough explanations and goals.
+    Training Centers Page: Offers details about training facilities, participant capacity, and locations in Mumbai, London, San Francisco, and Singapore.
+    Contact Page: Provides a form for queries as well as contact details.
 
-Key Features:
+Technologies Employed:
 
-    Home Page: Introduces the company's mission and services, emphasizing their commitment to delivering world-class training through various formats.
-    Courses Section: Lists 18 beginning and intermediate level courses, with detailed descriptions and objectives.
-    Training Centers Page: Provides information about training centers in San Francisco, London, Singapore, and Mumbai, including facilities and participant capacities.
-    Contact Page: Offers contact information and a form for inquiries.
+    HTML: Provided structure to the web pages' content and design.
+    CSS: Styled the website to guarantee a dependable and eye-catching layout.
+    JavaScript: Improved user experience through dynamic content loading and more interactivity.
 
-Technologies Used:
+Accountabilities:
 
-    HTML: Structured the content and layout of the web pages.
-    CSS: Styled the website to ensure a consistent and visually appealing design.
-    JavaScript: Added interactivity and dynamic content loading to enhance user experience.
-
-Responsibilities:
-
-    Designed the website layout and structure.
-    Developed responsive web pages using HTML and CSS.
-    Implemented interactive features and content updates with JavaScript.
-    Ensured cross-browser compatibility and optimized the website for different devices.
-    Collaborated with the client to gather requirements and incorporate feedback.
+    created the structure and design of the website.
+    Using HTML and CSS, responsive web pages were created.
+    JavaScript was used to implement interactive features and content updates.
+    made sure the website worked with all browsers and optimized it for various screen sizes.
+    worked together to collect requirements and take input into account.
